@@ -1,0 +1,5564 @@
+## BUILD A WORLD-CLASS BILINGUAL WORK OS + KNOWLEDGE OS + UNIVERSAL KNOWLEDGE GRAPH
+
+You are acting as an entire world-class software company and product organization simultaneously:
+
+* Principal Product Architect
+* Staff Full-Stack Engineer
+* Principal Frontend Engineer
+* Backend Architect
+* Database Architect
+* Security Engineer
+* DevOps Engineer
+* UX/UI Director
+* Accessibility Engineer
+* QA Lead
+* Performance Engineer
+* Product Manager
+* Information Architect
+* Knowledge Management Architect
+* AI Systems Architect
+
+Your mission is to design, architect, engineer, test, audit, optimize, and deploy a real production-grade SaaS platform.
+
+This is NOT a landing page.
+
+This is NOT a prototype.
+
+This is NOT a mockup.
+
+This is NOT a visual shell.
+
+This is NOT a fake dashboard.
+
+This is a serious long-term software product.
+
+The product should be capable of competing with and outperforming, in important areas, products such as:
+
+* Trello
+* ClickUp
+* Asana
+* Monday.com
+* Notion
+* Linear
+* Jira
+* Basecamp
+* Obsidian
+
+Do NOT copy these products visually or commercially.
+
+Extract their strongest product concepts and create a new, coherent, significantly better system.
+
+The final product must unify:
+
+* Work Management
+* Project Management
+* Task Management
+* Team Collaboration
+* Communication
+* Calendar
+* Meetings
+* Documentation
+* Notes
+* Knowledge Management
+* Personal Knowledge Management
+* Universal Knowledge Graph
+* Canvas
+* Structured Knowledge Databases
+* Files
+* Goals
+* Time Tracking
+* Reporting
+* Automation
+* Forms
+* Templates
+* Permissions
+* Notifications
+* Personal Productivity
+* Organizational Management
+* Future AI capabilities
+
+The central product idea is:
+
+> ONE WORKSPACE WHERE PEOPLE CAN THINK, PLAN, CREATE, EXECUTE, COMMUNICATE, DOCUMENT, AND UNDERSTAND THEIR WORK.
+
+Project Name : Kando
+( Kando means beehive )
+
+---
+
+# 1. ABSOLUTE PRIMARY OBJECTIVE
+
+BUILD A REAL PRODUCT, NOT A BEAUTIFUL DEMO.
+
+Every important visible feature must connect to real functionality.
+
+Never create:
+
+* fake buttons
+* fake navigation
+* fake CRUD
+* fake authentication
+* fake notifications
+* fake messages
+* fake statistics
+* fake task movement
+* fake permissions
+* fake uploads
+* fake calendar actions
+* fake settings
+* fake collaboration
+* fake reports
+* fake graph relationships
+* fake Canvas behavior
+
+If a button exists, it must work.
+
+If a setting exists, it must affect the system.
+
+If data is displayed, it must come from real application state or the database.
+
+If a task moves, that state must persist.
+
+If a permission changes, access must actually change.
+
+If a file uploads, it must actually be stored.
+
+If a message is sent, it must actually persist.
+
+If a relationship is created, it must actually exist in the underlying data model.
+
+---
+
+# 2. PRODUCT VISION
+
+Build a complete Work OS that supports:
+
+## Personal Productivity
+
+A single user must be able to manage:
+
+* tasks
+* projects
+* notes
+* reminders
+* calendar
+* goals
+* files
+* documents
+* knowledge
+* daily notes
+* dashboards
+* personal graph
+* Canvas
+
+## Team Productivity
+
+Teams must be able to manage:
+
+* projects
+* tasks
+* communication
+* meetings
+* files
+* documentation
+* workflows
+* goals
+* reports
+* knowledge
+
+## Organizational Productivity
+
+Organizations must be able to manage:
+
+* departments
+* teams
+* workspaces
+* employees
+* roles
+* permissions
+* projects
+* documentation
+* organizational knowledge
+* reports
+* security
+* auditing
+
+Initial architecture must comfortably support at least 200 users inside a workspace and should be designed to scale substantially beyond that.
+
+---
+
+# 3. CORE PRODUCT DIFFERENTIATOR
+
+The product must unify two worlds:
+
+## WORK
+
+* Projects
+* Tasks
+* Teams
+* Goals
+* Calendar
+* Meetings
+* Communication
+* Automation
+* Reports
+
+## KNOWLEDGE
+
+* Notes
+* Documents
+* Research
+* Decisions
+* Canvas
+* Properties
+* Tags
+* Databases
+* Daily Notes
+* Templates
+
+These are connected by:
+
+## THE UNIVERSAL KNOWLEDGE GRAPH
+
+The Knowledge Graph is not a decorative side feature.
+
+It is a foundational architecture layer.
+
+---
+
+# 4. PERSIAN IS A FIRST-CLASS REQUIREMENT
+
+Persian support is one of the highest-priority requirements of the entire product.
+
+Support:
+
+* Persian
+* English
+
+from the beginning.
+
+Do NOT build English first and add Persian later.
+
+The architecture, components, database content model, CSS, localization system, date system, search system, notification system, and UX must all support Persian from day one.
+
+Persian must feel native, not translated.
+
+---
+
+# 5. TRUE BILINGUAL ARCHITECTURE
+
+Support:
+
+* RTL
+* LTR
+* dynamic direction switching
+* Persian typography
+* English typography
+* Persian numbers
+* Latin numbers
+* Jalali dates
+* Gregorian dates
+* localized times
+* localized notifications
+* localized validation
+* localized errors
+* localized empty states
+* localized onboarding
+* localized authentication
+* localized emails
+* localized system messages
+* localized tooltips
+* localized command palette
+* localized search
+* localized settings
+
+Do not implement Persian by simply adding a root-level RTL attribute.
+
+Every component must work independently in RTL and LTR.
+
+Use logical CSS properties whenever possible:
+
+* margin-inline
+* padding-inline
+* inset-inline
+* border-inline
+* text-start
+* text-end
+
+Avoid unnecessary physical left/right assumptions.
+
+---
+
+# 6. PERSIAN TYPOGRAPHY
+
+Use a high-quality Persian-compatible web font.
+
+Support:
+
+* proper Persian glyphs
+* readable weights
+* proper line height
+* correct punctuation
+* proper numerals
+* mixed Persian/English text
+* Persian + numbers
+* Persian + dates
+* Persian + URLs
+* long Persian labels
+* ZWNJ
+* mixed-direction strings
+
+Test examples such as:
+
+`طراحی صفحه Product v2`
+
+and:
+
+`پروژه طراحی وب‌سایت 2026`
+
+Prevent:
+
+* clipped text
+* overlapping glyphs
+* broken wrapping
+* broken line heights
+* misaligned punctuation
+
+---
+
+# 7. PERSIAN SEARCH NORMALIZATION
+
+Search must intelligently normalize Persian/Arabic Unicode variations.
+
+Handle:
+
+* Persian `ی` vs Arabic `ي`
+* Persian `ک` vs Arabic `ك`
+* ZWNJ variations
+* whitespace normalization
+* Persian/Latin numerals where appropriate
+* Unicode variants
+
+Do not modify the visible stored text when normalizing search.
+
+---
+
+# 8. CALENDAR SYSTEM
+
+Support:
+
+* Jalali / Persian calendar
+* Gregorian calendar
+
+Users can select their preferred calendar.
+
+This affects:
+
+* tasks
+* start dates
+* due dates
+* recurrence
+* calendar
+* reminders
+* meetings
+* reports
+* notifications
+* forms
+* dashboards
+* activity logs
+* filters
+
+Store timestamps safely and render according to user preferences.
+
+Support:
+
+* user timezone
+* workspace timezone
+
+---
+
+# 9. TECHNOLOGY STACK
+
+Preferred stack:
+
+## Frontend
+
+* Next.js
+* React
+* TypeScript
+* Tailwind CSS
+* accessible component system
+* reusable design system
+* React Hook Form or equivalent
+* Zod or equivalent
+
+## Backend
+
+* Next.js Server Actions / Route Handlers where appropriate
+* PostgreSQL
+* modular service layer
+
+## Development Infrastructure
+
+* Supabase
+* PostgreSQL
+* Supabase Auth where appropriate
+* Supabase Storage
+* Supabase Realtime
+* Vercel
+
+Avoid unnecessary infrastructure.
+
+Keep provider abstractions replaceable.
+
+---
+
+# 10. DEVELOPMENT / TEST DEPLOYMENT
+
+The test/development build should work using free or low-cost infrastructure such as:
+
+* Vercel
+* Supabase
+
+Production does not need to remain free.
+
+Create:
+
+* `.env.example`
+* migration scripts
+* seed scripts
+* deployment configuration
+* test configuration
+* setup documentation
+
+Never hardcode secrets.
+
+---
+
+# 11. AUTHENTICATION
+
+Support:
+
+* email + password
+* email verification
+* email OTP / magic link
+* phone number
+* SMS OTP
+* password reset
+* password change
+* session management
+* logout all devices
+* 2FA
+* recovery codes
+* trusted devices
+* session revocation
+
+For local/test environments, if real SMS is unavailable, use a secure development OTP adapter.
+
+Never expose a production OTP bypass.
+
+---
+
+# 12. ORGANIZATIONS AND WORKSPACES
+
+A user can:
+
+* have a Personal Workspace
+* create multiple workspaces
+* belong to multiple workspaces
+* belong to multiple organizations
+* switch workspaces
+* switch organizations
+
+Workspace settings include:
+
+* name
+* logo
+* branding
+* language
+* calendar
+* timezone
+* theme
+* security policies
+* notification policies
+* permissions
+
+---
+
+# 13. ROLES AND PERMISSIONS
+
+Provide default roles such as:
+
+* Super Admin
+* Organization Owner
+* General Manager
+* CEO
+* Manager
+* Team Lead
+* Employee
+* Contractor
+* Guest
+
+But support custom roles.
+
+Permissions include:
+
+* view
+* create
+* edit
+* delete
+* assign
+* comment
+* upload
+* share
+* export
+* archive
+* manage members
+* manage roles
+* manage workspace
+* manage billing
+* manage integrations
+* manage automation
+* manage reports
+
+Permissions can apply at:
+
+* Organization
+* Workspace
+* Team
+* Project
+* Task
+* Document
+* Note
+* File
+* Custom Object
+
+Enforce authorization server-side.
+
+---
+
+# 14. MULTI-TENANCY
+
+Strictly isolate:
+
+* organizations
+* workspaces
+* teams
+* projects
+* tasks
+* documents
+* notes
+* files
+* conversations
+* graph nodes
+* graph relationships
+
+A user must never access unauthorized data by changing API parameters manually.
+
+---
+
+# 15. GLOBAL NAVIGATION
+
+Primary navigation should include:
+
+* Dashboard
+* Inbox / Notifications
+* Conversations
+* Projects
+* Tasks
+* Calendar
+* Meetings
+* Teams
+* Notes
+* Documents
+* Files
+* Knowledge
+* Graph
+* Canvas
+* Goals
+* Reports
+* Automations
+* Forms
+* Templates
+* Settings
+
+Allow:
+
+* pinning
+* reordering
+* favorites
+* hiding
+* collapsing
+
+---
+
+# 16. GLOBAL HEADER
+
+Provide appropriate combinations of:
+
+* workspace switcher
+* organization switcher
+* global search
+* command palette
+* help
+* notifications
+* messages
+* profile menu
+* language switcher
+* theme switcher
+
+Respect RTL/LTR.
+
+---
+
+# 17. DASHBOARD
+
+Create a highly customizable dashboard with:
+
+* greeting
+* date
+* user profile
+* today's tasks
+* overdue tasks
+* tasks needing follow-up
+* active projects
+* project progress
+* team workload
+* personal productivity
+* calendar
+* meetings
+* notifications
+* recent files
+* goals
+* time tracking
+* recent activity
+
+Users can:
+
+* add widgets
+* remove widgets
+* reorder widgets
+* resize widgets where appropriate
+* configure widgets
+* save layouts
+
+---
+
+# 18. PROJECT MANAGEMENT
+
+Projects are first-class entities.
+
+Each project supports:
+
+* overview
+* tasks
+* board
+* table
+* calendar
+* timeline
+* Gantt
+* messages
+* documents
+* files
+* notes
+* knowledge hub
+* meetings
+* goals
+* reports
+* activity
+* members
+* settings
+
+Project creation supports:
+
+* name
+* description
+* owner
+* team
+* members
+* start date
+* end date
+* status
+* icon
+* color
+* visibility
+* template
+* permissions
+
+---
+
+# 19. PROJECT CARDS
+
+Project cards display:
+
+* name
+* icon
+* owner
+* member avatars
+* status
+* progress
+* completed task count
+* open task count
+* overdue task count
+* deadline
+* recent activity
+
+Allow grid/list view switching.
+
+---
+
+# 20. PROJECT KNOWLEDGE HUB
+
+Every project has a Knowledge Hub containing:
+
+* overview
+* documentation
+* notes
+* research
+* decisions
+* meeting notes
+* tasks
+* files
+* Canvas
+* conversations
+* goals
+* relationships
+* graph
+
+This becomes institutional memory for the project.
+
+---
+
+# 21. TASK MANAGEMENT
+
+Tasks support:
+
+* title
+* rich description
+* creator
+* assignee
+* followers
+* project
+* team
+* status
+* priority
+* start date
+* due date
+* recurrence
+* tags
+* labels
+* attachments
+* comments
+* subtasks
+* checklists
+* dependencies
+* parent task
+* related tasks
+* custom fields
+* activity history
+* mentions
+* notifications
+* time estimate
+* actual time
+
+---
+
+# 22. TASK VIEWS
+
+Support:
+
+* List
+* Board
+* Kanban
+* Table
+* Calendar
+* Timeline
+* Gantt
+
+Users can save configurations consisting of:
+
+* filters
+* sorting
+* grouping
+* columns
+* layout
+* density
+
+---
+
+# 23. TASK LIST UX
+
+Task rows support:
+
+* completion checkbox
+* title
+* project
+* status
+* assignee
+* priority
+* due date
+* labels
+* checklist progress
+* attachment count
+* comment count
+* recurrence indicator
+
+Also support:
+
+* inline editing
+* bulk actions
+* sorting
+* filtering
+* grouping
+* drag reorder
+* context menus
+* keyboard navigation
+
+---
+
+# 24. TASK CREATION
+
+Basic task creation should require only:
+
+* title
+
+Advanced options:
+
+* description
+* assignee
+* project
+* priority
+* status
+* start date
+* due date
+* tags
+* recurrence
+* checklist
+* subtasks
+* dependencies
+* custom fields
+* attachments
+* followers
+
+Use progressive disclosure.
+
+The basic task should be creatable in seconds.
+
+---
+
+# 25. TASK DETAIL
+
+Task detail supports:
+
+* title
+* description
+* status
+* priority
+* assignee
+* collaborators
+* dates
+* project
+* tags
+* attachments
+* subtasks
+* dependencies
+* activity
+* comments
+* time tracking
+* custom fields
+* recurrence
+* relationships
+* backlinks
+
+---
+
+# 26. KANBAN
+
+Kanban is a critical component.
+
+Columns support:
+
+* name
+* color
+* count
+* WIP limits
+* collapse
+* reorder
+* archive
+* delete
+* duplicate
+
+Cards can display:
+
+* title
+* assignee
+* due date
+* priority
+* labels
+* attachment count
+* comment count
+* checklist progress
+* status
+
+---
+
+# 27. KANBAN DRAG AND DROP
+
+Task drag/drop must:
+
+1. update UI optimistically
+2. update server
+3. update database
+4. synchronize clients
+5. handle errors
+6. rollback if necessary
+
+Column ordering must persist.
+
+Task ordering must persist.
+
+---
+
+# 28. KANBAN GROUPING
+
+Support grouping by:
+
+* status
+* assignee
+* priority
+* project
+* team
+* custom field
+
+Changing grouping must not mutate underlying data.
+
+---
+
+# 29. RECURRING TASKS
+
+Support:
+
+* every day
+* weekdays
+* selected weekdays
+* every N days
+* weekly
+* every N weeks
+* monthly
+* yearly
+* first weekday
+* last weekday
+* custom recurrence
+* start date
+* end date
+* occurrence count
+* timezone
+
+---
+
+# 30. TASK DEPENDENCIES
+
+Support:
+
+* depends on
+* blocked by
+* blocks
+* related to
+* parent
+* child
+
+Prevent circular dependency cycles.
+
+---
+
+# 31. CALENDAR
+
+Provide:
+
+* day
+* week
+* month
+* agenda
+* timeline
+
+Display:
+
+* tasks
+* deadlines
+* meetings
+* reminders
+* events
+
+Drag/drop must update actual data.
+
+---
+
+# 32. TIMELINE / GANTT
+
+Support:
+
+* start date
+* due date
+* duration
+* dependencies
+* milestones
+* progress
+* drag move
+* resize
+
+Design for future scalability.
+
+---
+
+# 33. TEAMS
+
+Teams include:
+
+* name
+* description
+* icon
+* members
+* roles
+* projects
+* tasks
+* calendar
+* workload
+* reports
+* communication
+
+---
+
+# 34. USER PRESENCE
+
+Support:
+
+* Online
+* Away
+* Busy
+* Offline
+* Custom status
+
+Show presence subtly beside avatars.
+
+---
+
+# 35. COMMUNICATION
+
+Support:
+
+* direct messages
+* group messages
+* project chats
+* team chats
+* threads
+* replies
+* mentions
+* reactions
+* attachments
+* edit
+* delete
+* unread state
+* search
+* realtime
+
+---
+
+# 36. CONVERSATION UX
+
+Create a split communication experience.
+
+## Conversation list
+
+* search
+* filtering
+* avatar
+* presence
+* last message
+* preview
+* unread count
+* timestamp
+* selected state
+* new conversation
+* new group
+
+## Main conversation
+
+* message stream
+* date separators
+* read state
+* reactions
+* replies
+* attachments
+* object links
+* message composer
+
+---
+
+# 37. MEETINGS
+
+Support:
+
+* title
+* participants
+* date
+* time
+* timezone
+* location/link
+* description
+* agenda
+* notes
+* project
+* tasks
+* reminders
+
+Meeting can produce:
+
+* notes
+* decisions
+* tasks
+
+---
+
+# 38. FILE MANAGEMENT
+
+Support:
+
+* upload
+* drag/drop
+* folders
+* rename
+* move
+* download
+* preview
+* archive
+* delete
+* metadata
+* search
+* filtering
+* permissions
+* task attachments
+* project attachments
+* message attachments
+* document attachments
+
+Use real storage.
+
+---
+
+# 39. DOCUMENTS
+
+Support:
+
+* rich text
+* headings
+* paragraphs
+* lists
+* checklists
+* tables
+* links
+* embeds
+* comments
+* mentions
+* attachments
+* sharing
+* permissions
+* version history
+* search
+
+---
+
+# 40. PERSONAL NOTES
+
+Provide a personal notes area separate from shared documentation.
+
+Support:
+
+* private notes
+* folders
+* tags
+* search
+* favorites
+* rich text
+* attachments
+
+---
+
+# 41. GOALS
+
+Support:
+
+* personal goals
+* team goals
+* project goals
+* milestones
+* metrics
+* progress
+* target values
+* deadlines
+
+---
+
+# 42. TIME TRACKING
+
+Tasks support:
+
+* estimate
+* start timer
+* stop timer
+* manual time
+* actual time
+* time history
+
+---
+
+# 43. NOTIFICATIONS
+
+Channels:
+
+* in-app
+* browser push
+* mobile push
+* email
+
+Future-ready architecture for:
+
+* SMS
+
+Triggers:
+
+* assignment
+* mention
+* comment
+* reply
+* deadline
+* overdue
+* status change
+* project update
+* invitation
+* approval
+* automation
+
+Users control notification preferences.
+
+---
+
+# 44. SEARCH
+
+Global search includes:
+
+* tasks
+* projects
+* notes
+* documents
+* users
+* teams
+* messages
+* conversations
+* files
+* meetings
+* goals
+* database records
+* custom objects
+
+Support:
+
+* fuzzy search
+* exact search
+* filters
+* categories
+* recent searches
+* keyboard navigation
+* quick actions
+
+Support Persian and English.
+
+---
+
+# 45. FILTER BUILDER
+
+Create a visual filter builder supporting:
+
+* AND
+* OR
+* nested conditions
+
+Filters can use:
+
+* status
+* project
+* team
+* user
+* priority
+* due date
+* tags
+* custom fields
+* completion
+* creation date
+* update date
+
+Allow saved filters.
+
+---
+
+# 46. SAVED VIEWS
+
+Users can save:
+
+* My High Priority
+* Overdue
+* This Week
+* Waiting for Review
+* My Team
+* Recently Created
+
+Each saved view contains:
+
+* filters
+* sorting
+* grouping
+* columns
+* layout
+
+---
+
+# 47. BULK OPERATIONS
+
+Support:
+
+* select one
+* multi-select
+* select all
+* bulk assign
+* bulk status
+* bulk priority
+* bulk date
+* bulk tags
+* bulk move
+* bulk archive
+* bulk delete
+* bulk project assignment
+
+Respect permissions.
+
+---
+
+# 48. AUTOMATION ENGINE
+
+Use:
+
+WHEN
+→ CONDITION
+→ ACTION
+
+Examples:
+
+WHEN a task becomes Done
+THEN notify manager
+
+WHEN deadline is tomorrow
+THEN notify assignee
+
+WHEN High priority task is created
+THEN assign Team Lead
+
+WHEN project reaches 100%
+THEN notify stakeholders
+
+Use a scalable event-driven design.
+
+---
+
+# 49. FORMS
+
+Create Form Builder with:
+
+* short text
+* long text
+* number
+* email
+* phone
+* dropdown
+* multi-select
+* date
+* checkbox
+* radio
+* file upload
+
+Forms can create Tasks or structured records.
+
+---
+
+# 50. FORM SUBMISSIONS
+
+Each submission can have:
+
+* submitter
+* timestamp
+* data
+* status
+* related task
+* related project
+* files
+* activity
+
+---
+
+# 51. TEMPLATES
+
+Provide templates for:
+
+* projects
+* tasks
+* workflows
+* forms
+* dashboards
+* notes
+* meetings
+* documents
+* decisions
+* databases
+
+Users can create custom templates.
+
+---
+
+# 52. PERSONALIZATION
+
+Provide themes:
+
+* Light
+* Dark
+* System / Auto
+
+Also include several polished presets.
+
+Allow future customization of:
+
+* accent color
+* density
+* corner radius
+* sidebar style
+* typography
+* background
+* layout
+
+---
+
+# 53. DARK MODE
+
+Dark mode must be intentionally designed, not color-inverted.
+
+All components must work correctly in dark mode:
+
+* cards
+* tables
+* forms
+* dialogs
+* Kanban
+* charts
+* sidebar
+* menus
+* notifications
+* documents
+* graph
+* Canvas
+
+---
+
+# 54. LIGHT MODE
+
+Light mode should be:
+
+* clean
+* professional
+* calm
+* readable
+* minimal
+
+Use subtle borders and shadows.
+
+Avoid excessive gradients.
+
+---
+
+# 55. AUTO THEME
+
+Support:
+
+* Light
+* Dark
+* System
+
+Respect OS preference.
+
+---
+
+# 56. RESPONSIVE DESIGN
+
+Support fully:
+
+* Desktop
+* Laptop
+* Tablet
+* Mobile
+
+Mobile must not simply be desktop shrunk down.
+
+Create mobile-specific interaction where necessary.
+
+---
+
+# 57. MOBILE NAVIGATION
+
+Use an appropriate mobile model:
+
+* bottom navigation
+* drawer
+* context-aware navigation
+* bottom sheets
+* mobile command palette
+
+Do not force desktop navigation onto mobile.
+
+---
+
+# 58. PWA
+
+Prepare for:
+
+* installation
+* app icon
+* app-like behavior
+* push
+* offline-aware behavior
+* reconnect handling
+
+---
+
+# 59. OFFLINE-AWARE UX
+
+Where practical:
+
+* preserve drafts
+* preserve partially filled forms
+* queue safe mutations
+* display connection state
+* handle reconnection
+
+Do not falsely claim full offline operation.
+
+---
+
+# 60. ACCESSIBILITY
+
+Target WCAG 2.2 AA.
+
+Support:
+
+* keyboard navigation
+* visible focus
+* semantic HTML
+* screen readers
+* labels
+* contrast
+* reduced motion
+* accessible dialogs
+* accessible tables
+* accessible dropdowns
+
+---
+
+# 61. KEYBOARD SHORTCUTS
+
+Support shortcuts for:
+
+* search
+* command palette
+* create task
+* create note
+* navigation
+* save
+* close
+* archive
+
+---
+
+# 62. COMMAND PALETTE
+
+The global command palette supports:
+
+* create task
+* create project
+* create note
+* open search
+* open calendar
+* open graph
+* create Canvas
+* change theme
+* change language
+* switch workspace
+* navigate
+* assign task
+* change status
+
+Must work in Persian and English.
+
+---
+
+# 63. KNOWLEDGE OS
+
+The product must include a complete Knowledge Operating System inspired by the strongest concepts of Obsidian.
+
+Do not clone Obsidian visually.
+
+Do not create a separate note application.
+
+Integrate the knowledge system directly into the Work OS.
+
+---
+
+# 64. KNOWLEDGE OBJECTS
+
+First-class knowledge/work objects include:
+
+* Notes
+* Documents
+* Projects
+* Tasks
+* People
+* Teams
+* Meetings
+* Goals
+* Files
+* Conversations
+* Messages
+* Calendar Events
+* Decisions
+* Forms
+* Database Records
+* Templates
+* Canvas
+* Topics
+* Concepts
+* Custom Objects
+* External Resources
+
+---
+
+# 65. UNIVERSAL KNOWLEDGE GRAPH
+
+Every meaningful entity can become a graph node.
+
+Examples:
+
+Task
+→ Project
+
+Task
+→ User
+
+Task
+→ Document
+
+Task
+→ Meeting
+
+Task
+→ Goal
+
+Project
+→ Documents
+
+Project
+→ Tasks
+
+Project
+→ Meetings
+
+Project
+→ Goals
+
+Meeting
+→ Participants
+
+Meeting
+→ Notes
+
+Meeting
+→ Decisions
+
+Decision
+→ Tasks
+
+Decision
+→ Documents
+
+Person
+→ Projects
+
+Team
+→ Projects
+
+Conversation
+→ Project
+
+File
+→ Task
+
+Note
+→ Project
+
+Everything meaningful should be connectable.
+
+---
+
+# 66. NODE IDENTITY
+
+Every node has:
+
+* stable internal ID
+* entity type
+* workspace ID
+* organization ID where applicable
+* owner
+* permissions
+* creation time
+* update time
+
+Never use title strings as the actual identity.
+
+Renaming an entity must never break:
+
+* backlinks
+* relationships
+* embeds
+* references
+* saved views
+* automations
+
+---
+
+# 67. EXPLICIT / DERIVED / SUGGESTED RELATIONSHIPS
+
+Distinguish:
+
+## Explicit Relationships
+
+Created intentionally by users.
+
+## Derived Relationships
+
+Created from actual system structure.
+
+## Suggested Relationships
+
+Detected as possible relationships and offered for confirmation.
+
+Uncertain relationships should not silently alter user data.
+
+---
+
+# 68. RELATIONSHIP TYPES
+
+Support:
+
+* BELONGS_TO
+* CONTAINS
+* ASSIGNED_TO
+* OWNED_BY
+* REFERENCES
+* REFERENCED_BY
+* DEPENDS_ON
+* BLOCKS
+* BLOCKED_BY
+* RELATED_TO
+* SUPPORTS
+* DISCUSSED_IN
+* CREATED_FROM
+* PRODUCED
+* ATTENDED_BY
+* DOCUMENTED_BY
+* ATTACHED_TO
+* WORKS_ON
+* PARENT_OF
+* CHILD_OF
+
+Make relationship vocabulary extensible.
+
+---
+
+# 69. RELATIONSHIP METADATA
+
+Relationships may have their own metadata.
+
+For example:
+
+User → WORKS_ON → Project
+
+may contain:
+
+* role
+* start date
+* end date
+* allocation
+
+Task → BLOCKS → Task
+
+may contain:
+
+* created date
+* reason
+* state
+
+Meeting → DISCUSSED → Topic
+
+may contain:
+
+* timestamp
+* meeting section
+
+---
+
+# 70. UNIVERSAL BACKLINKS
+
+Every supported object can show backlinks.
+
+Examples:
+
+Project ← Notes, Documents, Meetings, Goals, Conversations
+
+Task ← Notes, Documents, Meetings, Comments
+
+User ← Projects, Tasks, Meetings, Documents
+
+Backlinks are not limited to Notes.
+
+---
+
+# 71. OUTGOING RELATIONSHIPS
+
+Every object should expose outgoing relationships.
+
+Example Meeting:
+
+* Project
+* Participants
+* Notes
+* Decisions
+* Tasks
+* Documents
+
+---
+
+# 72. UNIVERSAL LINKING
+
+Support intuitive references such as:
+
+`[[Project Name]]`
+
+`[[Task Name]]`
+
+`[[Person Name]]`
+
+`[[Note Name]]`
+
+Provide autocomplete.
+
+Use stable internal IDs.
+
+Rename-safe.
+
+---
+
+# 73. LINKED MENTIONS
+
+Detect possible mentions of known entities.
+
+Example:
+
+"جلسه امروز درباره پروژه فروشگاه"
+
+If "پروژه فروشگاه" exists, suggest linking it.
+
+Do not silently modify content unless automatic linking is explicitly enabled.
+
+---
+
+# 74. UNIVERSAL MENTIONS
+
+Support:
+
+* @users
+* #tags
+* [[objects]]
+
+Support Persian and English autocomplete.
+
+---
+
+# 75. GRAPH SCOPES
+
+Provide:
+
+* Personal Graph
+* Workspace Graph
+* Project Graph
+* Team Graph
+* Organization Graph
+* Local Graph
+
+Every graph respects permissions.
+
+---
+
+# 76. GRAPH MODES
+
+Support:
+
+* Global Graph
+* Local Graph
+* Path Finder
+* Cluster View
+* Timeline Graph
+* Dependency Graph
+* People Graph
+* Knowledge Graph
+
+---
+
+# 77. LOCAL GRAPH
+
+Show relationships around the current entity.
+
+Depth options:
+
+* 1
+* 2
+* 3+
+* custom
+
+Filters:
+
+* Notes
+* Projects
+* Tasks
+* People
+* Documents
+* Meetings
+
+---
+
+# 78. GRAPH FILTERS
+
+Filter graph by:
+
+* node type
+* relationship type
+* tag
+* workspace
+* project
+* team
+* user
+* date
+* status
+* priority
+* custom property
+
+---
+
+# 79. GRAPH INTERACTION
+
+Support:
+
+* zoom
+* pan
+* drag nodes
+* select nodes
+* hover highlighting
+* relationship highlighting
+* search
+* grouping
+* clustering
+* focus mode
+* filters
+
+---
+
+# 80. NODE VISUAL LANGUAGE
+
+Entity types should be visually distinguishable.
+
+Examples:
+
+Task → task icon
+
+Project → project icon
+
+User → avatar
+
+Document → document icon
+
+Meeting → calendar icon
+
+Goal → target icon
+
+Note → note icon
+
+Do not rely solely on color.
+
+---
+
+# 81. NODE INSPECTOR
+
+Clicking a node should show:
+
+* title
+* entity type
+* properties
+* status
+* owner
+* progress
+* relationships
+* backlinks
+* activity
+* related content
+
+Quick actions:
+
+* open
+* edit
+* link
+* bookmark
+* add relation
+* create task
+* create note
+
+---
+
+# 82. GRAPH QUICK CREATE
+
+Allow creation directly from graph:
+
+Project → Create Note
+
+Task → Add Dependency
+
+Person → Add to Project
+
+---
+
+# 83. GRAPH RELATIONSHIP CREATION
+
+Support intuitive relationship creation.
+
+Users can:
+
+* select nodes
+* connect nodes
+* drag one node toward another
+* select relationship type
+
+Relationship types include:
+
+* related
+* depends on
+* references
+* supports
+* blocks
+* parent
+* child
+* custom
+
+---
+
+# 84. PATH FINDER
+
+Allow:
+
+Node A → Node B
+
+and show the meaningful relationship path.
+
+Example:
+
+User
+→ Team
+→ Project
+→ Task
+→ Document
+
+---
+
+# 85. RELATED CONTENT ENGINE
+
+Every major object shows Related Content.
+
+Possible signals:
+
+* explicit relationship
+* shared project
+* shared tags
+* shared people
+* shared topics
+* shared properties
+* recent activity
+* future semantic similarity
+
+Explain why content is related where practical.
+
+---
+
+# 86. GRAPH PERMISSIONS
+
+The graph must respect all authorization rules.
+
+Unauthorized entities must not reveal:
+
+* existence
+* name
+* metadata
+* relationship count
+* backlinks
+* graph edges
+
+The graph can never become a privacy side channel.
+
+---
+
+# 87. PRIVATE KNOWLEDGE
+
+Private Notes must not appear in:
+
+* team search
+* workspace graph
+* team graph
+* shared backlinks
+* organization discovery
+
+unless explicitly shared.
+
+---
+
+# 88. UNIVERSAL OBJECT PAGE
+
+Every major entity should have a consistent detail model.
+
+Task:
+
+* Overview
+* Activity
+* Comments
+* Relations
+* Backlinks
+* Files
+
+Project:
+
+* Overview
+* Tasks
+* Board
+* Calendar
+* Messages
+* Knowledge
+* Relations
+* Backlinks
+* Activity
+
+Person:
+
+* Profile
+* Projects
+* Tasks
+* Teams
+* Meetings
+* Shared Notes
+* Activity
+* Relationships
+
+---
+
+# 89. OBJECT RELATIONSHIP PANEL
+
+Display only relevant relationship categories such as:
+
+* Parent
+* Children
+* Related
+* Blocks
+* Blocked By
+* References
+* Referenced By
+* Belongs To
+* Supports
+* Created From
+
+Do not overwhelm users with every possible category.
+
+---
+
+# 90. OBJECT LINKS IN CHAT
+
+Users can send linked objects in messages.
+
+Example:
+
+"Please review [[Launch Plan]]"
+
+Render a compact rich object card.
+
+---
+
+# 91. OBJECT LINKS IN TASKS
+
+Task descriptions and comments support references to:
+
+* notes
+* documents
+* projects
+* meetings
+* tasks
+* people
+
+References create real graph relationships.
+
+---
+
+# 92. OBJECT LINKS IN DOCUMENTS
+
+Documents can reference:
+
+* projects
+* tasks
+* people
+* meetings
+* goals
+* decisions
+
+---
+
+# 93. OBJECT LINKS IN CALENDAR
+
+Calendar events can connect to:
+
+* projects
+* tasks
+* meetings
+* users
+* notes
+* documents
+
+---
+
+# 94. DECISIONS AS FIRST-CLASS NODES
+
+Decision objects include:
+
+* title
+* context
+* decision
+* alternatives
+* reason
+* participants
+* date
+* project
+* tasks
+* documents
+
+All decisions belong to the Knowledge Graph.
+
+---
+
+# 95. PEOPLE AS GRAPH NODES
+
+Users are first-class graph entities.
+
+A user's permitted graph can show:
+
+* projects
+* teams
+* tasks
+* meetings
+* documents
+* goals
+* conversations
+
+---
+
+# 96. TEAM GRAPH
+
+Team graph can show:
+
+Team
+→ Members
+→ Projects
+→ Tasks
+→ Meetings
+→ Documents
+→ Goals
+
+---
+
+# 97. PROJECT GRAPH
+
+Project graph can show:
+
+Project
+→ Tasks
+→ Milestones
+→ Meetings
+→ Documents
+→ Decisions
+→ People
+→ Goals
+
+---
+
+# 98. TASK GRAPH
+
+Task graph includes:
+
+* parent
+* subtasks
+* dependencies
+* blocked tasks
+* related tasks
+* source note
+* project
+* assignee
+* meeting
+* document
+
+---
+
+# 99. GOAL GRAPH
+
+Goal graph includes:
+
+* projects
+* initiatives
+* tasks
+* metrics
+* people
+* teams
+* documents
+
+---
+
+# 100. MEETING GRAPH
+
+Meeting graph includes:
+
+* participants
+* project
+* agenda
+* notes
+* decisions
+* tasks
+* documents
+
+---
+
+# 101. CONVERSATION GRAPH
+
+Conversation graph can connect:
+
+* projects
+* tasks
+* meetings
+* documents
+* users
+* teams
+
+Allow explicit linking.
+
+---
+
+# 102. FILE GRAPH
+
+Files may be linked to:
+
+* tasks
+* projects
+* documents
+* meetings
+* conversations
+
+Respect permissions.
+
+---
+
+# 103. CUSTOM OBJECTS
+
+Prepare for user-defined object types.
+
+Examples:
+
+* Client
+* Product
+* Bug
+* Research Paper
+* Contract
+* Vendor
+
+Custom Objects should support:
+
+* properties
+* relationships
+* search
+* graph
+* views
+* permissions
+* templates
+
+---
+
+# 104. CUSTOM RELATIONSHIPS
+
+Organizations can eventually define custom relationship types such as:
+
+* Approved By
+* Reviewed By
+* Customer Of
+* Competitor Of
+* Replaces
+* Derived From
+* Owned By
+
+---
+
+# 105. UNIVERSAL OBJECT MODEL
+
+Conceptually model the system around:
+
+> Entity + Properties + Relationships + Permissions + Activity
+
+The UI can expose specialized workflows, but the underlying architecture remains coherent.
+
+---
+
+# 106. KNOWLEDGE NOTES
+
+Notes support:
+
+* title
+* rich text
+* Markdown-compatible structure
+* properties
+* tags
+* links
+* backlinks
+* embeds
+* attachments
+* comments
+* version history
+* author
+* timestamps
+
+Notes may be:
+
+* private
+* shared
+* project-scoped
+* team-scoped
+* organization-scoped
+
+---
+
+# 107. MARKDOWN-FIRST ARCHITECTURE
+
+Where practical, use a Markdown-compatible representation.
+
+Support:
+
+* headings
+* paragraphs
+* lists
+* checkboxes
+* tables
+* code blocks
+* blockquotes
+* links
+* embeds
+* callouts
+* footnotes
+
+---
+
+# 108. BLOCK-LEVEL REFERENCES
+
+Allow references to exact blocks/sections.
+
+Users should be able to jump directly to the source section.
+
+---
+
+# 109. EMBEDS / TRANSCLUSION
+
+Support:
+
+* notes
+* sections
+* tasks
+* project views
+* database views
+
+Embedded content should reflect source data.
+
+Do not create disconnected duplicates.
+
+---
+
+# 110. PROPERTIES
+
+Knowledge objects support structured properties.
+
+Types:
+
+* text
+* number
+* boolean
+* date
+* datetime
+* user
+* team
+* project
+* task
+* link
+* multi-link
+* select
+* multi-select
+* URL
+* file
+
+---
+
+# 111. KNOWLEDGE DATABASES
+
+Users can create custom knowledge databases such as:
+
+* Books
+* Clients
+* Contacts
+* Products
+* Research
+* Competitors
+* Resources
+* Courses
+* Meetings
+
+Each database supports:
+
+* schema
+* records
+* properties
+* filters
+* sorting
+* grouping
+* saved views
+
+---
+
+# 112. DATABASE-LIKE VIEWS
+
+Support:
+
+* table
+* list
+* board
+* cards
+* calendar
+* gallery
+* timeline
+
+Users can select:
+
+* visible properties
+* filters
+* sort order
+* grouping
+* layout
+
+---
+
+# 113. DAILY NOTES
+
+Automatic Daily Notes.
+
+Example:
+
+`2026-08-26`
+
+A Daily Note may contain:
+
+* today's tasks
+* meetings
+* quick capture
+* reflections
+* goals
+* activity
+
+Allow custom templates.
+
+---
+
+# 114. PERIODIC NOTES
+
+Support:
+
+* daily
+* weekly
+* monthly
+* quarterly
+* yearly
+
+---
+
+# 115. TIMELINE KNOWLEDGE VIEW
+
+Create a chronological knowledge/activity experience containing:
+
+* notes created
+* projects created
+* tasks completed
+* meetings
+* decisions
+* major updates
+
+---
+
+# 116. TAGS
+
+Support:
+
+`#project`
+
+`#research`
+
+`#research/competitor`
+
+Tags are:
+
+* searchable
+* filterable
+* graph-aware
+* manageable
+
+---
+
+# 117. TAG EXPLORER
+
+Show:
+
+* tag usage
+* related tags
+* recent notes
+* linked objects
+
+Allow:
+
+* rename
+* merge
+* delete
+
+---
+
+# 118. BOOKMARKS
+
+Users can bookmark:
+
+* notes
+* tasks
+* projects
+* searches
+* views
+* dashboards
+* graph views
+* Canvas views
+* conversations
+
+Bookmarks can be organized into folders.
+
+---
+
+# 119. FILE EXPLORER
+
+Provide an explorer for the knowledge space.
+
+Support:
+
+* folders
+* nested folders
+* notes
+* documents
+* attachments
+* Canvas
+* databases
+
+Do not make this the only navigation model.
+
+---
+
+# 120. QUICK SWITCHER
+
+Global quick switcher must:
+
+* search notes
+* search projects
+* search tasks
+* search people
+* search Canvas
+* search knowledge databases
+* create notes
+* open objects
+
+Keyboard-first.
+
+---
+
+# 121. SLASH COMMANDS
+
+Inside the editor support:
+
+`/heading`
+
+`/task`
+
+`/table`
+
+`/callout`
+
+`/link`
+
+`/embed`
+
+`/date`
+
+`/mention`
+
+`/project`
+
+`/meeting`
+
+Must work in both Persian and English.
+
+---
+
+# 122. KNOWLEDGE COMMAND PALETTE
+
+Support:
+
+* Create Note
+* Open Note
+* Create Canvas
+* Open Graph
+* Insert Link
+* Insert Embed
+* Add Property
+* Add Tag
+* Create Database
+* Search Backlinks
+* Open Local Graph
+* Create Daily Note
+
+---
+
+# 123. NOTE PREVIEW
+
+Hover a linked object to show:
+
+* title
+* excerpt
+* properties
+* backlinks count
+* tags
+* modified time
+
+Click to open.
+
+---
+
+# 124. OUTLINE
+
+Long notes/documents have an Outline derived from headings.
+
+Clicking an item jumps to the section.
+
+Support nested headings.
+
+---
+
+# 125. KNOWLEDGE SEARCH
+
+Search across:
+
+* full text
+* tags
+* properties
+* links
+* backlinks
+* headings
+* content types
+* database records
+
+Support structured queries.
+
+Example:
+
+type = meeting
+project = Website
+date > 2026-08-01
+
+---
+
+# 126. SEMANTIC KNOWLEDGE SEARCH ARCHITECTURE
+
+Prepare for future semantic search.
+
+Future query:
+
+"Show me all decisions we made about the new website."
+
+Should eventually traverse knowledge relationships.
+
+Do not make semantic search mandatory for v1.
+
+---
+
+# 127. KNOWLEDGE DISCOVERY
+
+Show related content by:
+
+* links
+* tags
+* projects
+* people
+* topics
+* properties
+* activity
+
+---
+
+# 128. ORPHAN NOTES
+
+Detect Notes without incoming links.
+
+Provide an Orphan Notes view.
+
+Do not automatically delete or alter.
+
+---
+
+# 129. UNLINKED MENTIONS
+
+Show possible references that have not yet become explicit links.
+
+Allow confirmation.
+
+---
+
+# 130. WORKSPACE LAYOUTS
+
+Users can save layouts containing:
+
+* editor
+* outline
+* backlinks
+* graph
+* file explorer
+* properties
+* task view
+* Canvas
+
+Restore layouts later.
+
+---
+
+# 131. SPLIT PANES
+
+Support:
+
+* tabs
+* split views
+* side panels
+* floating panels
+
+Examples:
+
+Note A | Note B
+
+Project | Note
+
+Task | Meeting Notes
+
+---
+
+# 132. MULTI-PANEL RESEARCH MODE
+
+Example:
+
+Left: Knowledge Explorer
+
+Center: Note/Document
+
+Right: Backlinks + Properties + Related Tasks
+
+---
+
+# 133. CANVAS
+
+Create an infinite 2D Canvas.
+
+Canvas supports:
+
+* Notes
+* Projects
+* Tasks
+* Documents
+* Files
+* Images
+* Web pages
+* PDFs
+* Videos
+* Text cards
+* Embeds
+* Database views
+
+---
+
+# 134. CANVAS NODES
+
+Nodes are:
+
+* draggable
+* resizable
+* editable
+* connectable
+* collapsible where appropriate
+
+---
+
+# 135. CANVAS EDGES
+
+Support:
+
+* related to
+* depends on
+* references
+* supports
+* blocks
+* parent/child
+* custom relation
+
+Edges support:
+
+* direction
+* labels
+* style
+* color
+
+---
+
+# 136. CANVAS GROUPS
+
+Users can create frames/groups for:
+
+* brainstorming
+* project planning
+* research
+* architecture
+* workflows
+* product planning
+* visual task management
+
+Groups support:
+
+* title
+* color
+* resize
+* move
+* collapse where appropriate
+
+---
+
+# 137. CANVAS + LIVE WORK DATA
+
+Canvas must connect to real objects.
+
+A Canvas may contain:
+
+* live Project nodes
+* live Task nodes
+* live Documents
+* live Notes
+* live Database Views
+
+Do not create disconnected copies.
+
+---
+
+# 138. CANVAS USE CASES
+
+Canvas should support:
+
+* brainstorming
+* mind mapping
+* project planning
+* architecture
+* research
+* meeting planning
+* product planning
+* workflows
+* visual task management
+* knowledge exploration
+
+---
+
+# 139. KNOWLEDGE TEMPLATES
+
+Templates can define:
+
+* title
+* content
+* properties
+* tags
+* links
+* sections
+* checklists
+
+Examples:
+
+Meeting Template:
+
+* Date
+* Participants
+* Project
+* Agenda
+* Notes
+* Decisions
+* Action Items
+
+---
+
+# 140. PROJECT DECISION LOG
+
+Projects should optionally contain a structured Decision Log.
+
+Each Decision is:
+
+* a first-class object
+* graph node
+* searchable
+* permission-aware
+
+---
+
+# 141. MEETING → KNOWLEDGE PIPELINE
+
+A meeting should be able to create:
+
+* meeting note
+* decisions
+* action items
+* tasks
+
+All are connected.
+
+---
+
+# 142. KNOWLEDGE VERSION HISTORY
+
+Important documents and Notes support:
+
+* version history
+* author
+* timestamp
+* diff/change history
+* restore
+
+---
+
+# 143. COLLABORATIVE EDITING
+
+Architecture should support future multiplayer document editing.
+
+Use a conflict-aware architecture.
+
+---
+
+# 144. IMPORT / EXPORT
+
+Prepare:
+
+* Markdown import
+* Markdown export
+* folder import
+* folder export
+* JSON export
+* CSV export
+
+---
+
+# 145. OBSIDIAN VAULT IMPORT
+
+Prepare mapping:
+
+`.md` → Note
+
+frontmatter → Properties
+
+`[[links]]` → Relationships
+
+`#tags` → Tags
+
+attachments → Files
+
+Canvas files → Canvas
+
+Provide an import report:
+
+* imported
+* converted
+* skipped
+* unsupported
+* conflicts
+
+Never silently destroy unsupported information.
+
+---
+
+# 146. MARKDOWN PORTABILITY
+
+Users must feel that they own their data.
+
+Preserve portable representations where practical.
+
+---
+
+# 147. KNOWLEDGE BACKUP
+
+Prepare architecture for:
+
+* snapshots
+* restore
+* export
+* backup
+* revision history
+
+---
+
+# 148. KNOWLEDGE SECURITY
+
+Support:
+
+* private notes
+* shared notes
+* team notes
+* project notes
+* organization notes
+
+Permissions apply to:
+
+* read
+* write
+* comment
+* share
+* export
+* delete
+
+---
+
+# 149. TEAM KNOWLEDGE GRAPH
+
+Within permissions, visualize:
+
+Project
+→ Documentation
+→ Decisions
+→ Meetings
+→ Tasks
+→ People
+
+This becomes organizational memory.
+
+---
+
+# 150. KNOWLEDGE GRAPH PRIVACY
+
+If a user cannot access an entity, do not reveal:
+
+* name
+* metadata
+* existence
+* relationship count
+* backlinks
+* graph node
+
+---
+
+# 151. KNOWLEDGE HEALTH
+
+Optional indicators:
+
+* orphan notes
+* broken links
+* missing properties
+* duplicate concepts
+* unlinked mentions
+* stale documents
+* outdated project documentation
+
+These should be suggestions, not intrusive alerts.
+
+---
+
+# 152. KNOWLEDGE HOME
+
+Knowledge Home may contain:
+
+* recent notes
+* recently modified documents
+* recent decisions
+* bookmarked objects
+* orphan notes
+* graph preview
+* saved knowledge views
+* daily note
+* suggested relationships
+
+---
+
+# 153. UNIVERSAL CONTEXT PANEL
+
+Create a reusable Context Panel showing where relevant:
+
+* properties
+* relationships
+* backlinks
+* activity
+* related content
+* quick actions
+
+Use it for:
+
+* tasks
+* projects
+* notes
+* meetings
+* documents
+* users
+* files
+
+---
+
+# 154. WORK + KNOWLEDGE PIPELINE
+
+The system must support:
+
+Idea
+→ Note
+→ Research
+→ Decision
+→ Project
+→ Task
+→ Meeting
+→ Conversation
+→ Document
+→ Completion
+→ Knowledge Graph
+
+The user should not need separate applications for these stages.
+
+---
+
+# 155. TASK CHECKBOXES IN NOTES
+
+Knowledge notes support task checkboxes.
+
+Example:
+
+`- [ ] Prepare proposal`
+
+Users can choose whether a checkbox is:
+
+* simple note checkbox
+* real system Task
+* linked system Task
+
+Do not force every checkbox to become a full Task.
+
+---
+
+# 156. KNOWLEDGE ↔ TASK SYNC
+
+If a Note references a real Task:
+
+* task state can appear in the Note
+* task source Note can be shown on the Task
+* task completion can update relevant embedded/task references
+
+---
+
+# 157. PROJECT KNOWLEDGE HUB
+
+Each Project should combine:
+
+* tasks
+* documentation
+* notes
+* research
+* meetings
+* decisions
+* files
+* Canvas
+* conversations
+* graph
+
+---
+
+# 158. DECISION LOG
+
+Decision fields:
+
+* title
+* context
+* decision
+* alternatives
+* reason
+* participants
+* date
+* related project
+* related tasks
+* linked documents
+
+---
+
+# 159. MEETING GRAPH
+
+Meeting links:
+
+* participants
+* project
+* agenda
+* notes
+* decisions
+* tasks
+* documents
+
+---
+
+# 160. UNIVERSAL CONTEXT DISCOVERY
+
+When an object is opened, the application should surface relevant context automatically.
+
+Example:
+
+Opening a Task may show:
+
+* source project
+* related document
+* related meeting
+* decision that created it
+* assigned user
+* blocking task
+
+Do not force users to manually reconstruct context.
+
+---
+
+# 161. GRAPH + SEARCH
+
+Searching for:
+
+"website launch"
+
+should surface:
+
+* project
+* related tasks
+* meetings
+* documents
+* conversations
+* decisions
+* people
+
+Search should understand relationship context.
+
+---
+
+# 162. GRAPH + AUTOMATION
+
+Prepare the automation engine for relationship-aware actions.
+
+Examples:
+
+WHEN Task becomes linked to High Priority Project
+THEN notify Project Owner
+
+WHEN Decision is created for Project
+THEN update Decision Log
+
+WHEN Meeting creates Decision
+THEN connect it to participants and relevant project
+
+---
+
+# 163. GRAPH EVENT ARCHITECTURE
+
+Emit domain events such as:
+
+* TaskCreated
+* TaskUpdated
+* TaskDeleted
+* ProjectCreated
+* ProjectArchived
+* UserAddedToTeam
+* DocumentUpdated
+* MeetingCreated
+* DecisionCreated
+
+These can update:
+
+* graph indexes
+* search
+* notifications
+* automation
+* activity
+* future AI context
+
+---
+
+# 164. GRAPH PERFORMANCE
+
+The Global Graph may contain thousands of nodes.
+
+Use:
+
+* viewport culling
+* clustering
+* progressive rendering
+* lazy expansion
+* level of detail
+* filtering
+* efficient graph queries
+
+Do not render the entire graph at maximum detail.
+
+---
+
+# 165. GRAPH INDEXING
+
+Optimize for:
+
+* node neighbors
+* backlinks
+* outgoing relationships
+* shortest path
+* filtered graph
+* local graph
+* project graph
+* relationship counts
+
+PostgreSQL is the source of truth.
+
+Do not add a specialized graph database unless demonstrably necessary.
+
+Keep the graph layer replaceable.
+
+---
+
+# 166. GRAPH CONSISTENCY
+
+If:
+
+* a task is deleted
+* a project is archived
+* a note is renamed
+* a user leaves a team
+* a document is moved
+
+the graph must remain consistent.
+
+Prevent dangling relationships.
+
+---
+
+# 167. GRAPH + AI
+
+The Knowledge Graph is the future context layer for AI.
+
+Future questions such as:
+
+"What are the current blockers for Phoenix?"
+
+can traverse:
+
+Project
+→ Tasks
+→ Dependencies
+→ Meetings
+→ Messages
+→ Decisions
+
+Future questions such as:
+
+"Who is responsible for payment integration?"
+
+can traverse:
+
+Project
+→ Tasks
+→ Assignees
+→ Documents
+→ Conversations
+
+Do not implement full reasoning now.
+
+Design the data for it.
+
+---
+
+# 168. AI SERVICE LAYER
+
+Create an abstraction layer capable of later supporting:
+
+* natural language task creation
+* project generation
+* goal decomposition
+* summaries
+* meeting summaries
+* project health analysis
+* knowledge search
+* task prioritization
+* deadline recommendations
+* report analysis
+* workspace assistant
+
+Do not tightly couple the entire system to one AI vendor.
+
+---
+
+# 169. CUSTOM ENTITY EXPANSION
+
+The system should eventually support custom entity types such as:
+
+* Client
+* Product
+* Bug
+* Research Paper
+* Contract
+* Vendor
+* Course
+* Asset
+
+Custom entities must participate in:
+
+* properties
+* views
+* relationships
+* search
+* graph
+* permissions
+* templates
+
+---
+
+# 170. CUSTOM RELATIONSHIP EXPANSION
+
+Organizations may define custom relationships such as:
+
+* Approved By
+* Reviewed By
+* Competitor Of
+* Customer Of
+* Replaces
+* Derived From
+* Owned By
+
+---
+
+# 171. UNIVERSAL OBJECT DATABASE MODEL
+
+The conceptual architecture should be:
+
+> Entity + Properties + Relationships + Permissions + Activity
+
+Not merely a collection of disconnected modules.
+
+---
+
+# 172. DATABASE
+
+Use PostgreSQL.
+
+Potential entities include:
+
+* users
+* profiles
+* organizations
+* workspaces
+* workspace_members
+* roles
+* permissions
+* role_permissions
+* teams
+* team_members
+* projects
+* project_members
+* project_views
+* task_lists
+* tasks
+* task_assignees
+* task_followers
+* task_comments
+* task_checklists
+* subtasks
+* task_dependencies
+* tags
+* task_tags
+* statuses
+* priorities
+* custom_fields
+* custom_field_values
+* dashboards
+* dashboard_widgets
+* saved_views
+* saved_filters
+* calendar_events
+* meetings
+* conversations
+* conversation_members
+* messages
+* message_reactions
+* documents
+* notes
+* folders
+* files
+* notifications
+* notification_preferences
+* activity_logs
+* goals
+* goal_metrics
+* time_entries
+* automations
+* automation_conditions
+* automation_actions
+* forms
+* form_fields
+* form_submissions
+* templates
+* invitations
+* sessions
+* security_events
+* knowledge_objects
+* relationships
+* relationship_types
+* graph_metadata
+* canvas_documents
+* canvas_nodes
+* canvas_edges
+* knowledge_databases
+* knowledge_database_records
+
+Adjust according to final architecture.
+
+Do not blindly create unnecessary tables.
+
+---
+
+# 173. DATABASE QUALITY
+
+Use:
+
+* UUIDs
+* indexes
+* constraints
+* foreign keys
+* transactions
+* pagination-friendly ordering
+* soft deletion where appropriate
+* auditability
+
+Avoid:
+
+* N+1 queries
+* uncontrolled denormalization
+* unnecessary duplication
+
+---
+
+# 174. GRAPH AS DERIVED LAYER
+
+PostgreSQL is the primary source of truth.
+
+The graph must reflect actual application relationships.
+
+Do not introduce a separate graph database merely for appearances.
+
+---
+
+# 175. REALTIME
+
+Use realtime where it provides value:
+
+* conversations
+* notifications
+* tasks
+* presence
+* collaboration
+* activity
+* graph relationship updates where relevant
+
+---
+
+# 176. LARGE DATASETS
+
+The application should remain usable with:
+
+* thousands of tasks
+* large message history
+* large activity logs
+* many files
+* thousands of graph nodes
+
+Use:
+
+* pagination
+* virtualization
+* indexing
+* lazy loading
+
+---
+
+# 177. PERFORMANCE
+
+Use:
+
+* server rendering where appropriate
+* route splitting
+* lazy loading
+* virtualization
+* caching
+* optimistic UI
+* efficient queries
+* database indexes
+
+---
+
+# 178. MOBILE PERFORMANCE
+
+Avoid:
+
+* huge JavaScript bundles
+* heavy animation
+* blocking renders
+* unnecessarily huge images
+* excessive libraries
+
+---
+
+# 179. DESIGN SYSTEM
+
+Build a reusable design system.
+
+Core components:
+
+* Button
+* Input
+* Select
+* Combobox
+* Date Picker
+* Time Picker
+* Dialog
+* Drawer
+* Dropdown
+* Tabs
+* Tooltip
+* Toast
+* Badge
+* Avatar
+* Card
+* Table
+* List
+* Kanban Card
+* Kanban Column
+* Modal
+* Command Palette
+* Sidebar
+* Breadcrumb
+* Progress
+* Charts
+* Empty State
+* Loading State
+* Error State
+* Property Editor
+* Relationship Picker
+* Graph Node
+* Graph Inspector
+* Canvas Node
+
+Every component supports:
+
+* RTL
+* LTR
+* light
+* dark
+* accessibility
+* responsive behavior
+
+---
+
+# 180. DESIGN LANGUAGE
+
+The final interface should be:
+
+* minimalist
+* premium
+* modern
+* calm
+* professional
+* fast
+* coherent
+* accessible
+
+Avoid:
+
+* excessive gradients
+* excessive shadows
+* oversized cards
+* giant decorative typography
+* visual clutter
+* old-fashioned Bootstrap-like aesthetics
+* meaningless borders
+* random color use
+
+---
+
+# 181. SEMANTIC COLORS
+
+Define semantic design tokens:
+
+* primary
+* secondary
+* success
+* warning
+* danger
+* info
+* neutral
+* surface
+* background
+* foreground
+* muted
+* border
+
+Allow theme overrides.
+
+---
+
+# 182. STATUS COLORS
+
+Status colors should communicate meaning consistently:
+
+* success
+* active
+* warning
+* blocked
+* overdue
+* neutral
+
+Kanban can use custom colors while preserving accessibility.
+
+---
+
+# 183. DASHBOARD CUSTOMIZATION
+
+Users can customize:
+
+* widget visibility
+* widget order
+* widget size
+* date range
+* preferred view
+* density
+* theme
+
+Preferences persist by user/workspace.
+
+---
+
+# 184. ERROR STATES
+
+Every asynchronous feature requires:
+
+* loading
+* success
+* error
+* retry
+* empty
+* unauthorized
+* not found
+
+Messages must be understandable in both Persian and English.
+
+---
+
+# 185. EMPTY STATES
+
+Every empty screen should explain:
+
+* what the feature does
+* why it is empty
+* what action to take next
+
+Provide clear CTA.
+
+---
+
+# 186. MODALS AND DRAWERS
+
+Use dialogs for focused actions.
+
+Use drawers when context should remain visible.
+
+On mobile, convert to full-screen or bottom sheets when appropriate.
+
+---
+
+# 187. DATA TABLES
+
+Tables support:
+
+* sorting
+* filtering
+* grouping
+* column visibility
+* column reordering
+* column resizing
+* inline editing
+* bulk operations
+* pagination
+* responsive behavior
+
+---
+
+# 188. GRAPH UI ACCESSIBILITY
+
+Graph and Canvas cannot rely solely on visual relationships.
+
+Provide accessible alternatives such as:
+
+* relationship lists
+* node details
+* keyboard selection
+* text summaries
+
+---
+
+# 189. PROFILE MENU
+
+Include:
+
+* profile
+* availability
+* language
+* calendar preference
+* theme
+* preferences
+* security
+* sessions
+* logout
+
+---
+
+# 190. WORKSPACE SWITCHER
+
+Show:
+
+* workspace name
+* icon
+* organization
+* role
+* recent workspaces
+
+Switching workspace must refresh all contextual data correctly.
+
+---
+
+# 191. ERROR PREVENTION
+
+Prevent user mistakes.
+
+Examples:
+
+* destructive-action confirmation
+* unsaved changes warning
+* dependency conflict warning
+* permission warning
+* irreversible deletion warning
+
+---
+
+# 192. DATA EXPORT
+
+Prepare export architecture for:
+
+* CSV
+* JSON
+* PDF
+* Excel-compatible formats
+
+---
+
+# 193. IMPORT ARCHITECTURE
+
+Prepare future imports from:
+
+* CSV
+* JSON
+* Trello
+* Asana
+* ClickUp
+* Obsidian Vaults
+
+---
+
+# 194. BILLING ARCHITECTURE
+
+Keep billing provider-agnostic.
+
+Prepare possible plans:
+
+* Free
+* Pro
+* Business
+* Enterprise
+
+Do not force billing into core logic.
+
+---
+
+# 195. FEATURE FLAGS
+
+Use feature flags for:
+
+* beta
+* premium
+* experiments
+* gradual rollouts
+
+---
+
+# 196. OBSERVABILITY
+
+Prepare for:
+
+* error tracking
+* logs
+* performance monitoring
+* security events
+* audit logs
+
+---
+
+# 197. ENVIRONMENT MANAGEMENT
+
+Separate:
+
+* development
+* test
+* production
+
+Create `.env.example`.
+
+Document every variable.
+
+---
+
+# 198. DEMO / SEED DATA
+
+Provide realistic seed data containing:
+
+* multiple users
+* multiple roles
+* teams
+* projects
+* tasks
+* Kanban columns
+* conversations
+* messages
+* files
+* documents
+* notes
+* meetings
+* goals
+* decisions
+* graph relationships
+
+Include both Persian and English examples.
+
+---
+
+# 199. ONBOARDING
+
+After signup, ask for:
+
+* name
+* workspace
+* company/personal use
+* team size
+* primary use case
+* language
+* calendar preference
+* theme
+
+Then create a helpful starting environment.
+
+---
+
+# 200. FIRST-RUN EXPERIENCE
+
+A new user should not see an intimidating empty system.
+
+Provide:
+
+* useful initial dashboard
+* optional onboarding project
+* first task
+* suggestions
+* quick setup
+
+Do not permanently force demo data.
+
+---
+
+# 201. PRODUCT POLISH
+
+The application should look like it was made by a mature international SaaS company.
+
+Every major screen should have:
+
+* clear hierarchy
+* good spacing
+* intuitive defaults
+* consistent states
+* responsive behavior
+* useful empty states
+* useful error handling
+
+---
+
+# 202. UX PRINCIPLE
+
+Use:
+
+> POWERFUL UNDERNEATH, SIMPLE ON THE SURFACE.
+
+Feature-rich does not mean visually complicated.
+
+Use:
+
+* progressive disclosure
+* contextual controls
+* smart defaults
+* inline editing
+* command palette
+* shortcuts
+
+---
+
+# 203. VISUAL REFERENCE — FUNCTIONAL INSPIRATION ONLY
+
+The supplied reference screenshots indicate a legacy work-management product containing concepts such as:
+
+* persistent RTL-side navigation
+* global top header
+* workspace navigation
+* Dashboard
+* user profile
+* colleague/member avatars
+* task statistics
+* follow-up tasks
+* project cards
+* create-project action
+* project progress
+* project members
+* project statistics
+* contextual project tabs
+* project conversations
+* task list
+* task categories
+* task filtering
+* task creation modal
+* Kanban boards
+* colored status columns
+* task cards
+* progress indicators
+* team activity
+
+Extract functional concepts.
+
+Do NOT copy:
+
+* exact layout
+* exact colors
+* exact typography
+* exact text
+* logos
+* branding
+* proprietary assets
+* exact screen proportions
+
+The final interface must be significantly better.
+
+---
+
+# 204. REFERENCE DASHBOARD BEHAVIOR
+
+The dashboard concept includes:
+
+* greeting
+* user identity
+* profile
+* summary statistics
+* colleagues
+* today's tasks
+* follow-up tasks
+* distinctive visual background
+
+Create a modern implementation with subtle visual atmosphere.
+
+---
+
+# 205. REFERENCE PROJECT EXPERIENCE
+
+The project concept includes:
+
+* visually rich project cards
+* member avatars
+* progress
+* task counts
+* project creation
+* project navigation
+* project statistics
+
+Improve the hierarchy and usability.
+
+---
+
+# 206. REFERENCE TASK EXPERIENCE
+
+The task concept includes:
+
+* dedicated task area
+* contextual header
+* filters
+* task list
+* task properties
+* task creation dialog
+
+Modernize it significantly.
+
+---
+
+# 207. REFERENCE KANBAN
+
+The Kanban concept includes:
+
+* colored columns
+* column titles
+* task counts
+* task cards
+* progress indicators
+* drag and drop
+* add task
+* add column
+
+Implement a cleaner and more configurable experience.
+
+---
+
+# 208. REFERENCE CONVERSATION EXPERIENCE
+
+The communication concept uses:
+
+* conversation list
+* selected conversation
+* avatars
+* previews
+* timestamps
+* main message stream
+* composer
+
+Create a much more polished realtime implementation.
+
+---
+
+# 209. VISUAL QA
+
+After building each major interface:
+
+Inspect:
+
+* spacing
+* typography
+* hierarchy
+* alignment
+* component consistency
+* mobile
+* RTL
+* LTR
+* Dark Mode
+* Light Mode
+* Persian rendering
+* long strings
+* mixed-direction content
+
+Fix discovered issues automatically.
+
+---
+
+# 210. UX AUDIT
+
+Ask after every major area:
+
+* Can a new user understand it immediately?
+* Can a power user move quickly?
+* Is the interface visually noisy?
+* Are common actions obvious?
+* Are advanced actions discoverable?
+* Are dangerous actions clear?
+* Are empty states useful?
+* Are errors understandable?
+* Does Persian feel native?
+* Does mobile feel natural?
+
+Fix problems.
+
+---
+
+# 211. MOBILE VALIDATION
+
+Test major workflows at actual mobile widths.
+
+Verify:
+
+* authentication
+* dashboard
+* tasks
+* task detail
+* Kanban
+* projects
+* messaging
+* notifications
+* notes
+* documents
+* graph
+* Canvas
+* calendar
+
+---
+
+# 212. RTL TEST MATRIX
+
+Test RTL for:
+
+* Dashboard
+* Sidebar
+* Header
+* Tasks
+* Kanban
+* Tables
+* Calendar
+* Timeline
+* Chat
+* Notifications
+* Dialogs
+* Forms
+* Search
+* Command Palette
+* Notes
+* Documents
+* Canvas
+* Graph
+* Properties
+* Databases
+* Reports
+* Admin
+
+---
+
+# 213. PERSIAN DATA QUALITY
+
+Seed realistic Persian data:
+
+* Persian names
+* Persian project names
+* Persian tasks
+* Persian messages
+* Persian descriptions
+* Persian labels
+* Persian dates
+
+Also mixed-language examples:
+
+`طراحی صفحه Product v2`
+
+---
+
+# 214. PERFORMANCE AUDIT
+
+Test with realistic data:
+
+* 200 users
+* hundreds/thousands of tasks
+* large activity histories
+* large message histories
+* multiple projects
+* many graph nodes
+* many files
+
+Identify bottlenecks and fix them.
+
+---
+
+# 215. SECURITY AUDIT
+
+Verify:
+
+* unauthorized API access
+* workspace isolation
+* role enforcement
+* file permissions
+* private note isolation
+* graph privacy
+* session management
+* rate limiting
+* input validation
+* XSS defenses
+* CSRF where applicable
+* audit logging
+
+---
+
+# 216. AUTHENTICATION E2E TESTS
+
+Test:
+
+* signup
+* login
+* email verification
+* SMS OTP
+* password reset
+* password change
+* 2FA
+* recovery codes
+* session revocation
+* logout all devices
+
+---
+
+# 217. WORK OS E2E TESTS
+
+Test:
+
+1. create workspace
+2. invite member
+3. assign role
+4. create team
+5. create project
+6. create task
+7. assign task
+8. move Kanban
+9. comment
+10. attach file
+11. create meeting
+12. send message
+13. notification
+14. report
+
+---
+
+# 218. KNOWLEDGE E2E TESTS
+
+Test:
+
+1. create note
+2. edit note
+3. add property
+4. add tag
+5. create internal link
+6. verify backlinks
+7. verify outgoing links
+8. preview linked object
+9. open local graph
+10. open global graph
+11. create Canvas
+12. add nodes
+13. connect nodes
+14. create database
+15. filter database
+16. sort database
+17. group database
+18. save view
+19. create template
+20. create Daily Note
+21. use slash command
+22. use knowledge command palette
+
+---
+
+# 219. UNIVERSAL GRAPH SCENARIO
+
+Perform this exact real-data workflow:
+
+Create Project:
+
+"Website Redesign"
+
+Create Note:
+
+"Website Requirements"
+
+Create:
+
+Note → Project
+
+Create Meeting:
+
+"Website Planning"
+
+Link:
+
+Meeting → Project
+
+Meeting → Note
+
+Create Decision:
+
+"Use Next.js"
+
+Link:
+
+Decision → Meeting
+
+Decision → Project
+
+Decision → Note
+
+Create Task:
+
+"Implement Next.js Architecture"
+
+Link:
+
+Task → Project
+
+Task → Decision
+
+Task → Note
+
+Assign Task to:
+
+User: Ali
+
+Ali belongs to:
+
+Team: Engineering
+
+The Task appears in:
+
+* Ali's tasks
+* Project board
+* Team workload
+* Calendar if dated
+* Knowledge Graph
+
+The graph should visually and structurally represent:
+
+Project
+↓
+Note
+↓
+Meeting
+↓
+Decision
+↓
+Task
+↓
+User
+↓
+Team
+
+Everything must use real persisted data.
+
+---
+
+# 220. KNOWLEDGE OBJECT NAVIGATION
+
+Every relationship must be navigable.
+
+For example:
+
+From Task → open Project
+
+From Project → open Documents
+
+From Document → open referenced Decision
+
+From Decision → open Meeting
+
+From Meeting → open Participants
+
+Do not create dead relationship cards.
+
+---
+
+# 221. UNIVERSAL CONTEXT DISCOVERY
+
+When opening an object, surface its meaningful context automatically.
+
+Example:
+
+Task:
+
+* Project
+* Source Note
+* Decision
+* Meeting
+* Assignee
+* Dependencies
+* Related files
+
+Project:
+
+* Tasks
+* Goals
+* Meetings
+* Documentation
+* Decisions
+* Members
+* Files
+* Conversations
+
+---
+
+# 222. GRAPH-AWARE SEARCH
+
+Search should not only match text.
+
+It should expose meaningful relational context.
+
+Example:
+
+Search "Phoenix"
+
+show:
+
+Phoenix Project
+
+Related:
+
+* 18 Tasks
+* 4 Meetings
+* 7 Documents
+* 3 Decisions
+* 8 People
+* 2 Goals
+
+---
+
+# 223. KNOWLEDGE DISCOVERY
+
+Help users discover:
+
+* related notes
+* related projects
+* related tasks
+* related meetings
+* related decisions
+* related people
+* related documents
+
+Use explainable relationships whenever possible.
+
+---
+
+# 224. KNOWLEDGE PORTABILITY
+
+Do not trap the user.
+
+Preserve:
+
+* Markdown compatibility
+* structured JSON where practical
+* exportability
+* stable references
+
+---
+
+# 225. IMPORT REPORTING
+
+When importing data:
+
+Show:
+
+* imported
+* converted
+* skipped
+* unsupported
+* conflict
+* repaired
+
+Never silently discard user information.
+
+---
+
+# 226. NO DEAD ENDS
+
+Every major empty area has a logical next action.
+
+Examples:
+
+No Projects → Create Project
+
+No Tasks → Create Task
+
+No Team → Invite Team
+
+No Conversations → Start Conversation
+
+No Notes → Create Note
+
+No Knowledge Graph → Create or link objects
+
+---
+
+# 227. NO PLACEHOLDER CONTENT
+
+Do not leave:
+
+* Lorem ipsum
+* meaningless English filler
+* broken labels
+* fake reports
+* fake statistics
+* dummy navigation
+* empty placeholder pages
+
+Use realistic content.
+
+---
+
+# 228. ARCHITECTURE QUALITY
+
+Business logic must be separate from UI.
+
+Use modular services.
+
+Keep database access organized.
+
+Keep authorization reusable.
+
+Keep graph logic abstracted.
+
+Keep notification logic abstracted.
+
+Keep automation abstracted.
+
+Keep AI abstracted.
+
+---
+
+# 229. CODE QUALITY
+
+Use:
+
+* strict TypeScript
+* reusable modules
+* meaningful names
+* predictable patterns
+* clean dependency boundaries
+* tests
+
+Avoid:
+
+* huge components
+* huge files
+* duplicated logic
+* unsafe `any`
+* magic strings
+* arbitrary database calls from UI
+
+---
+
+# 230. BUILD ORDER
+
+Implement in a disciplined order:
+
+## Phase 1
+
+Architecture
+
+## Phase 2
+
+Database
+
+## Phase 3
+
+Authentication
+
+## Phase 4
+
+Organizations / Workspaces
+
+## Phase 5
+
+Roles / Permissions
+
+## Phase 6
+
+Design System
+
+## Phase 7
+
+Projects
+
+## Phase 8
+
+Tasks
+
+## Phase 9
+
+Kanban
+
+## Phase 10
+
+Calendar / Timeline / Gantt
+
+## Phase 11
+
+Communication
+
+## Phase 12
+
+Files / Documents
+
+## Phase 13
+
+Knowledge OS
+
+## Phase 14
+
+Universal Graph
+
+## Phase 15
+
+Canvas
+
+## Phase 16
+
+Knowledge Databases
+
+## Phase 17
+
+Notifications
+
+## Phase 18
+
+Goals / Time Tracking / Reports
+
+## Phase 19
+
+Automation
+
+## Phase 20
+
+Forms
+
+## Phase 21
+
+Customization / Themes
+
+## Phase 22
+
+Mobile / PWA
+
+## Phase 23
+
+Admin / Security
+
+## Phase 24
+
+AI Architecture
+
+## Phase 25
+
+Testing
+
+## Phase 26
+
+Performance Optimization
+
+## Phase 27
+
+Visual QA
+
+## Phase 28
+
+Deployment
+
+Do not create isolated demos.
+
+The final system must be unified.
+
+---
+
+# 231. AUTONOMOUS ENGINEERING BEHAVIOR
+
+Do not wait for trivial user decisions.
+
+When you identify:
+
+* missing dependency
+* broken component
+* architectural weakness
+* security flaw
+* UX problem
+* mobile issue
+* RTL issue
+* performance issue
+* incomplete feature
+
+solve it yourself.
+
+Refactor when necessary.
+
+---
+
+# 232. SELF-REPAIR LOOP
+
+After each major subsystem:
+
+1. build
+2. run tests
+3. inspect output
+4. identify problems
+5. fix
+6. rerun tests
+7. inspect again
+
+Do not stop after the first successful build.
+
+---
+
+# 233. FINAL PRODUCT STANDARD
+
+Ask:
+
+> WOULD I SHIP THIS AS A SERIOUS COMMERCIAL SAAS PRODUCT TOMORROW?
+
+If the answer is no:
+
+do not declare completion.
+
+Continue improving.
+
+---
+
+# 234. FINAL PRODUCT POSITIONING
+
+Do not build:
+
+* another Trello
+* another Obsidian
+* another project manager
+* another notes app
+* a Frankenstein combination
+
+Build:
+
+> THE OPERATING SYSTEM FOR WORK AND ORGANIZATIONAL KNOWLEDGE.
+
+The user's journey should naturally move:
+
+Idea
+→ Note
+→ Research
+→ Decision
+→ Project
+→ Task
+→ Meeting
+→ Conversation
+→ Document
+→ Completion
+→ Knowledge Graph
+
+without requiring another platform.
+
+---
+
+# 235. FINAL CORE PRINCIPLE
+
+Your tasks describe what you are doing.
+
+Your notes describe what you know.
+
+Your projects describe what you are building.
+
+Your conversations describe what you discussed.
+
+Your meetings describe what happened.
+
+Your decisions describe why something was chosen.
+
+Your documents describe what the organization knows.
+
+Your Knowledge Graph connects all of them.
+
+---
+
+# 236. FINAL GRAPH PRINCIPLE
+
+Every important piece of work should have context.
+
+Every important piece of knowledge should have relationships.
+
+Every relationship should be navigable.
+
+Every relationship should respect permissions.
+
+Every important object should be discoverable.
+
+Every important object should be useful from multiple contexts.
+
+The system should make context visible.
+
+---
+
+# 237. FINAL PERSIAN PRINCIPLE
+
+Persian must not feel like an added language.
+
+Persian must feel like a first-class product experience.
+
+That means:
+
+* native RTL
+* native typography
+* native date handling
+* native Jalali support
+* native number handling
+* Persian search normalization
+* Persian UX writing
+* Persian seed data
+* Persian notifications
+* Persian errors
+* Persian onboarding
+* Persian documentation
+
+---
+
+# 238. FINAL MOBILE PRINCIPLE
+
+Mobile is not an afterthought.
+
+The application must support complete and meaningful workflows on mobile.
+
+Important functionality must remain usable without a desktop.
+
+---
+
+# 239. FINAL SECURITY PRINCIPLE
+
+Never prioritize convenience over authorization.
+
+Never trust the client.
+
+Never leak private data through:
+
+* search
+* graph
+* backlinks
+* autocomplete
+* notifications
+* URLs
+* file metadata
+* API responses
+
+---
+
+# 240. FINAL PERFORMANCE PRINCIPLE
+
+The application must remain responsive as:
+
+* tasks increase
+* messages increase
+* graph nodes increase
+* files increase
+* users increase
+
+Use the correct scalability strategy rather than premature complexity.
+
+---
+
+# 241. FINAL KNOWLEDGE GRAPH PRINCIPLE
+
+The Knowledge Graph is not a separate visualization layer.
+
+It is the contextual fabric connecting the entire system.
+
+Work data and knowledge data must be structurally connectable.
+
+---
+
+# 242. FINAL AI PRINCIPLE
+
+AI should eventually understand the workspace through the Knowledge Graph rather than through isolated records.
+
+The future AI assistant should be able to reason over:
+
+* tasks
+* projects
+* people
+* meetings
+* documents
+* conversations
+* decisions
+* notes
+* goals
+* relationships
+
+---
+
+# 243. FINAL TESTING REQUIREMENT
+
+Before declaring completion, run complete tests for:
+
+## Authentication
+
+signup, login, OTP, password reset, 2FA
+
+## Authorization
+
+roles, permissions, tenant isolation
+
+## Work
+
+projects, tasks, Kanban, calendar, meetings
+
+## Collaboration
+
+messages, comments, files, realtime
+
+## Knowledge
+
+notes, properties, tags, links, backlinks, Canvas, databases
+
+## Graph
+
+local graph, global graph, relationships, permissions
+
+## Localization
+
+Persian, English, RTL, LTR, Jalali, Gregorian
+
+## UX
+
+desktop, tablet, mobile
+
+## Themes
+
+light, dark, system
+
+---
+
+# 244. FINAL VISUAL AUDIT
+
+Review every major screen for:
+
+* alignment
+* hierarchy
+* density
+* typography
+* spacing
+* icons
+* interaction states
+* responsive behavior
+* RTL
+* LTR
+* dark mode
+* light mode
+* accessibility
+* Persian typography
+
+Fix every obvious flaw.
+
+---
+
+# 245. FINAL SECURITY AUDIT
+
+Verify:
+
+* authentication integrity
+* session security
+* authorization
+* tenant isolation
+* file access
+* private notes
+* private projects
+* graph privacy
+* audit logs
+* input validation
+* rate limiting
+* XSS protection
+* CSRF protections where applicable
+
+---
+
+# 246. FINAL PERFORMANCE AUDIT
+
+Verify with realistic data:
+
+* 200+ users
+* large task volumes
+* large message volumes
+* large activity logs
+* multiple teams
+* multiple projects
+* many graph nodes
+* many files
+
+Fix bottlenecks.
+
+---
+
+# 247. FINAL QUALITY AUDIT
+
+Review:
+
+* frontend
+* backend
+* database
+* security
+* UX
+* UI
+* accessibility
+* localization
+* graph
+* Canvas
+* mobile
+* performance
+* tests
+* deployment
+
+---
+
+# 248. FINAL DEPLOYMENT REQUIREMENT
+
+Provide:
+
+* local setup
+* environment documentation
+* database migration
+* seed instructions
+* test commands
+* production build
+* deployment configuration
+* Vercel configuration
+* Supabase configuration
+
+The application should be deployable without undocumented manual steps.
+
+---
+
+# 249. FINAL DOCUMENTATION REQUIREMENT
+
+Document:
+
+* architecture
+* database
+* authentication
+* permissions
+* localization
+* RTL
+* deployment
+* testing
+* Knowledge OS
+* Graph
+* Canvas
+* custom objects
+* automation
+* AI architecture
+* troubleshooting
+
+---
+
+# 250. FINAL ACCEPTANCE CRITERIA
+
+The product is NOT complete because it builds.
+
+It is complete only if:
+
+* authentication works
+* email authentication works
+* phone OTP architecture works
+* 2FA works
+* PostgreSQL works
+* storage works
+* workspaces work
+* organizations work
+* teams work
+* roles work
+* permissions work
+* projects work
+* tasks work
+* subtasks work
+* dependencies work
+* Kanban works
+* drag/drop persists
+* list view works
+* table view works
+* calendar works
+* Jalali works
+* Gregorian works
+* timeline works
+* Gantt works
+* meetings work
+* conversations work
+* realtime works
+* notifications work
+* files work
+* documents work
+* notes work
+* properties work
+* tags work
+* backlinks work
+* outgoing links work
+* universal linking works
+* search works
+* knowledge databases work
+* Canvas works
+* Graph works
+* Local Graph works
+* Global Graph works
+* relationship permissions work
+* automation architecture works
+* forms work
+* reports work
+* goals work
+* time tracking works
+* themes work
+* mobile works
+* PWA architecture works
+* Persian works
+* English works
+* RTL works
+* LTR works
+* Light Mode works
+* Dark Mode works
+* System Theme works
+* accessibility works
+* errors are handled
+* empty states exist
+* loading states exist
+* tests exist
+* deployment works
+* documentation exists
+* security is enforced
+* critical workflows are real
+* no important page is merely a placeholder
+* no critical button is dead
+* no core feature is fake
+
+---
+
+# 251. FINAL UNIVERSAL GRAPH ACCEPTANCE SCENARIO
+
+The following scenario must work end-to-end with real persisted data:
+
+Create:
+
+Project:
+"Website Redesign"
+
+Note:
+"Website Requirements"
+
+Relationship:
+Note → Project
+
+Meeting:
+"Website Planning"
+
+Relationships:
+Meeting → Project
+Meeting → Note
+
+Decision:
+"Use Next.js"
+
+Relationships:
+Decision → Meeting
+Decision → Project
+Decision → Note
+
+Task:
+"Implement Next.js Architecture"
+
+Relationships:
+Task → Project
+Task → Decision
+Task → Note
+
+Assign Task to:
+
+Ali
+
+Ali belongs to:
+
+Engineering Team
+
+The final graph exposes:
+
+Project
+↓
+Note
+↓
+Meeting
+↓
+Decision
+↓
+Task
+↓
+Ali
+↓
+Engineering Team
+
+The same relationships must be accessible from:
+
+* Project
+* Note
+* Meeting
+* Decision
+* Task
+* User
+* Team
+* Search
+* Local Graph
+* Global Graph
+
+This test proves that the Work OS and Knowledge OS are genuinely integrated.
+
+---
+
+# 252. FINAL AUTONOMOUS EXECUTION INSTRUCTION
+
+Start building the actual software.
+
+Do not spend the entire execution generating plans instead of code.
+
+Do not stop after creating a visual shell.
+
+Build:
+
+* real architecture
+* real database
+* real authentication
+* real permissions
+* real UI
+* real backend
+* real interactions
+* real persistence
+* real Knowledge Graph
+* real Canvas
+* real search
+* real collaboration
+* real responsive behavior
+* real tests
+* real deployment configuration
+
+Then:
+
+1. test
+2. inspect
+3. audit
+4. fix
+5. retest
+6. optimize
+7. visually inspect again
+8. perform Persian/RTL audit
+9. perform security audit
+10. perform Knowledge Graph audit
+11. perform mobile audit
+12. perform production-readiness audit
+
+Do not stop simply because the app works.
+
+Make it excellent.
+
+---
+
+# 253. FINAL COMMAND — BUILD THE PRODUCT
+
+## BUILD A REAL, GLOBAL, BILINGUAL WORK OS + KNOWLEDGE OS + UNIVERSAL KNOWLEDGE GRAPH.
+
+English must feel native.
+
+Persian must feel equally native.
+
+RTL must be first-class.
+
+LTR must be first-class.
+
+Jalali must be first-class.
+
+Gregorian must be first-class.
+
+The UI must be beautiful.
+
+The UX must be effortless.
+
+The backend must be real.
+
+The permissions must be secure.
+
+The architecture must scale.
+
+The mobile experience must be excellent.
+
+The Knowledge OS must be deep.
+
+The Universal Knowledge Graph must reflect real relationships.
+
+The Canvas must be integrated with live data.
+
+The search must understand work and knowledge.
+
+The product must connect:
+
+Work + Knowledge + People + Time + Communication + Context.
+
+Do not build a clone of any existing product.
+
+Do not copy the reference application's visual identity.
+
+Use the reference concepts only as functional inspiration.
+
+Build a substantially better, more modern, more flexible, more connected, and more powerful product.
+
+The final system should feel like:
+
+> Trello + ClickUp + Asana + Notion + Obsidian + Slack + Calendar + Knowledge Graph
+
+but behave as **one coherent product rather than a collection of separate products**.
+
+The user should never need to ask:
+
+"Where should I put this?"
+
+The platform should connect the answer automatically.
+
+The product should become:
+
+> **THE OPERATING SYSTEM FOR WORK AND ORGANIZATIONAL KNOWLEDGE.**
+
+Build it as if a real company will use it tomorrow.
