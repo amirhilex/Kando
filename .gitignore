@@ -13,44 +13,53 @@ out/
 .env.local
 .env.*
 
-# Python cache
+# Python
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
-
-# Logs
-*.log
-
-# Coverage
-coverage/
-htmlcov/
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
 .coverage
-
-# IDE
-.vscode/
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.git/modules/
+*.tmproj
+*.sublime-project
+*.sublime-workspace
 .idea/
+.vscode/
 *.swp
 *.swo
-*.tmp
-
-# OS
 .DS_Store
 Thumbs.db
 
-# Testing
-.nyc_output/
-coverage/
-junit.xml
-
 # Compiled JavaScript
-*.js.map
-*.jsx.map
-*.ts.map
-*.tsx.map
+*.min.js
+*.map
 
-# Lock files
-package-lock.json
-yarn.lock
-pnpm-lock.yaml
+# Testing
+coverage/
+.nyc_output/
+istanbul/
+.mocha/
+.jest/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
 ```
